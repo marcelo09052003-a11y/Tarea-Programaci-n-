@@ -1,0 +1,62 @@
+# Juego Piedra, Papel o Tijera en Python
+
+## Descripción
+Este proyecto consiste en el desarrollo de un juego clásico de **Piedra, Papel o Tijera**, implementado en el lenguaje de programación Python.  
+El programa permite la interacción entre un jugador humano y la computadora, aplicando estructuras de control, funciones y generación de valores aleatorios.
+
+---
+
+## Objetivo académico
+- Aplicar el uso de **funciones** para estructurar un programa.
+- Utilizar **estructuras condicionales** para la toma de decisiones.
+- Implementar **ciclos repetitivos** para la ejecución continua del juego.
+- Manejar **variables y contadores** para el registro de puntajes.
+- Mejorar la legibilidad y mantenibilidad del código.
+
+---
+
+## Ejecución del programa
+Desde la terminal o consola, ejecutar:
+
+
+---
+
+## Funcionamiento del juego
+1. El programa muestra un menú con cuatro opciones:
+   - Piedra
+   - Papel
+   - Tijera
+   - Salir
+2. El jugador selecciona una opción ingresando un número.
+3. La computadora elige una opción de forma aleatoria.
+4. El sistema compara ambas elecciones y determina el resultado.
+5. Se actualiza el marcador de puntos.
+6. El juego continúa hasta que el jugador decide salir.
+
+---
+
+## Sistema de puntuación
+- **Jugador**: se incrementa cuando el jugador gana una ronda.
+- **Computadora**: se incrementa cuando la computadora gana una ronda.
+- **Empates**: se incrementa cuando ambos eligen la misma opción.
+
+El marcador se muestra después de cada ronda y al finalizar el juego.
+
+---
+
+## Cambios realizados en la nueva versión
+- Refactorización completa del código utilizando **funciones**.
+- Separación lógica de responsabilidades:
+  - Menú
+  - Validación de entrada
+  - Lógica del juego
+  - Resultados
+  - Marcador
+- Implementación de un **contador de puntos** para jugador, computadora y empates.
+- Mejora en la claridad, orden y mantenibilidad del código.
+- El comportamiento original del juego se mantiene sin alteraciones para el usuario.
+
+---
+
+## Conclusión
+Este proyecto demuestra la correcta aplicación de conceptos fundamentales de programación en Python, permitiendo una base sólida para futuras ampliaciones como rondas limitadas, persistencia de datos o interfaces gráficas.
